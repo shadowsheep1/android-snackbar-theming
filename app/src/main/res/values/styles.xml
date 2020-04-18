@@ -6,6 +6,13 @@
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
+
+    <item name="snackbarStyle">@style/MySnackBarStyle</item>
+  </style>
+
+  <!-- snackbar style -->
+  <style name="MySnackBarStyle" parent="Widget.MaterialComponents.Snackbar">
+    <item name="android:background">@drawable/my_snackbar_background</item>
   </style>
 
   <style name="AppTheme.NoActionBar">
